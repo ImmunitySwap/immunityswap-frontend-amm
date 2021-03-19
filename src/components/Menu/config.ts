@@ -4,41 +4,40 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.vikingswap.finance/'
+    href: '/',
   },
   {
     label: 'Trade',
     icon: 'TradeIcon',
-    initialOpenState: true,
     items: [
       {
         label: 'Exchange',
-        href: '/swap'
+        href: 'http://exchange.immunityswap.com/',
       },
       {
         label: 'Liquidity',
-        href: '/pool'
-      }
-    ]
+        href: 'http://exchange.immunityswap.com/#/pool',
+      },
+    ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.vikingswap.finance/farms'
-  },
+    href: '/farms',
+  },/* 
   {
     label: 'Armory',
     icon: 'PoolIcon',
-    href: 'https://www.vikingswap.finance/nests'
-  },
+    href: '/nests', 
+  }, */
   {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
-      },
+        href: 'https://pancakeswap.info/token/0x29927a1Ad6EE13357D276bA3A26bFc90371DE141',
+      }/* ,
       {
         label: 'CoinMarketCap',
         href: 'https://coinmarketcap.com/currencies/viking-swap/',
@@ -46,8 +45,8 @@ const config: MenuEntry[] = [
       {
         label: 'CoinGecko',
         href: 'https://www.coingecko.com/en/coins/viking-swap',
-      },
-    ]
+      }, */
+    ],
   },
   {
     label: 'More',
@@ -55,23 +54,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/VikingDefi/",
-      },
-      {
-        label: "Docs",
-        href: "https://vikingswap.gitbook.io/viking-swap/",
-      },
-      {
-        label: "Blog",
-        href: "https://viking-swap.medium.com/",
-      },
+        href: "https://github.com/ImmunitySwap/",
+      }
     ],
-  },
+  }, /*
   {
     label: 'Audit by Hacken',
     icon: 'HelmetIcon',
     href: 'https://www.vikingswap.finance/files/vikingHackenAudit.pdf',
-  },
+  }, */
 ]
 
 export default config
