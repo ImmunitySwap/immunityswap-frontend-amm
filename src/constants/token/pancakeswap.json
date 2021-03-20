@@ -19,7 +19,7 @@
     },
     {
       "name": "bIMTY",
-      "symbol": "EGG",
+      "symbol": "bIMTY",
       "address": "0x5Aaf9ddd8AeEC564AAaa0F76B8E5f2B2B1a6d295",
       "chainId": 56,
       "decimals": 18
