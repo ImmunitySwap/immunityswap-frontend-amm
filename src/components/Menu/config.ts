@@ -24,12 +24,19 @@ const config: MenuEntry[] = [
     label: 'Farms',
     icon: 'FarmIcon',
     href: 'https://immunityswap.com/farms',
-  },/* 
+  },
+  {
+    label: 'Chart',
+    icon: '',
+    href: 'https://goswappcharts.web.app/?isbsc=true&tokenId=0x29927a1ad6ee13357d276ba3a26bfc90371de141'
+  },
+  /* 
   {
     label: 'Armory',
     icon: 'PoolIcon',
     href: '/nests', 
   }, */
+  
   {
     label: 'Info',
     icon: 'InfoIcon',
